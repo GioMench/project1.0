@@ -1,10 +1,18 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import Header from './components/header.vue'
+
 </script>
 
 <template>
+  <header>
+    <Header />
+  </header>
+
 
 </template>
 
-<style scoped></style>
+<style scoped>
+body {
+  background-color: black;
+}
+</style>
