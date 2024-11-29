@@ -12,6 +12,7 @@
                 <li>menu</li>
             </ul>
         </div>
+
     </section>
 </template>
 
@@ -21,11 +22,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    .navbar_right2 {
+        display: none;
+    }
+
 }
 
 h1 {
     font-size: 2.5em;
-    position: realtive;
+    position: relative;
 }
 
 h3 {
@@ -49,5 +55,29 @@ ul {
     li {
         padding-inline: 1em;
     }
+}
+
+@media(max-width :768px) {
+    h1 {
+        font-size: 2em;
+        position: relative;
+    }
+
+    h3 {
+        font-size: 1.007em;
+        position: absolute;
+        top: 2.6em;
+        letter-spacing: 0.897em;
+
+    }
+}
+
+@media (max-width:600px) {
+    .navbar {
+        display: block;
+
+
+    }
+
 }
 </style>
