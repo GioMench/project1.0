@@ -7,9 +7,10 @@
 
         <div class="navbar_right">
             <ul>
-                <li>git</li>
-                <li>linkedin</li>
-                <li>menu</li>
+                <li><a href="https://github.com/GioMench" target="_blank" rel="noopener noreferrer">git</a></li>
+                <li><a href="https://www.linkedin.com/in/giorgia-mancini-dev97/" target="_blank"
+                        rel="noopener noreferrer">linkedin</a></li>
+                <li><a href="mailto:mancinigiorgiadev@gmail.com">contact</a></li>
             </ul>
         </div>
 
@@ -54,6 +55,11 @@ ul {
 
     li {
         padding-inline: 1em;
+
+        a {
+            text-decoration: none;
+            color: var(--vt-c-white-soft);
+        }
     }
 }
 
@@ -66,9 +72,13 @@ ul {
     h3 {
         font-size: 1.007em;
         position: absolute;
-        top: 2.58em;
+        top: 2.33em;
         letter-spacing: 0.897em;
 
+    }
+
+    ul {
+        font-size: smaller;
     }
 }
 
@@ -78,8 +88,21 @@ ul {
     }
 
     ul {
-        font-size: x-small;
+        font-size: xx-small;
         padding: 0;
+    }
+
+    h1 {
+        font-size: 2em;
+        position: relative;
+    }
+
+    h3 {
+        font-size: 1.01em;
+        position: absolute;
+        top: 2.35em;
+        letter-spacing: 0.897em;
+
     }
 }
 
