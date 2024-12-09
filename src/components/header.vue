@@ -66,7 +66,7 @@ ul {
     h3 {
         font-size: 1.007em;
         position: absolute;
-        top: 2.6em;
+        top: 2.58em;
         letter-spacing: 0.897em;
 
     }
@@ -75,9 +75,26 @@ ul {
 @media (max-width:600px) {
     .navbar {
         display: block;
-
-
     }
 
+    ul {
+        font-size: x-small;
+        padding: 0;
+    }
+}
+
+@media(max-width :425px) {
+    h1 {
+        font-size: 1.8em;
+        position: relative;
+    }
+
+    h3 {
+        font-size: 0.944em;
+        position: absolute;
+        top: 2.24em;
+        letter-spacing: 0.897em;
+
+    }
 }
 </style>
