@@ -24,9 +24,7 @@
     justify-content: space-between;
     align-items: center;
 
-    .navbar_right2 {
-        display: none;
-    }
+
 
 }
 
