@@ -1,5 +1,7 @@
 <script setup>
 import Header from './components/header.vue'
+import Hello from './components/hello.vue'
+
 
 </script>
 
@@ -7,6 +9,9 @@ import Header from './components/header.vue'
   <header>
     <Header />
   </header>
+  <main>
+    <Hello />
+  </main>
 
 
 </template>
