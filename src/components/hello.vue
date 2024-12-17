@@ -1,11 +1,12 @@
 <template>
     <section class="hello_container">
 
-        <h2>hello!</h2>
+        <div class="title">hello!</div>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia cupiditate dolor adipisci blanditiis, nisi
+        <div class="presentation">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia cupiditate dolor
+            adipisci blanditiis, nisi
             accusantium similique vel pariatur amet dignissimos harum laboriosam, velit excepturi quis repellendus ea?
-            Aut, nobis porro?</p>
+            Aut, nobis porro?</div>
 
 
     </section>
@@ -22,15 +23,23 @@
     height: 100vh;
     margin: auto;
     margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+
 }
 
-h2 {
-    font-size: 7rem;
+.title {
+    font-size: 8rem;
+
+
+
 }
 
-p {
+.presentation {
     font-size: 1.5rem;
     letter-spacing: 0.1rem;
+
+
 }
 
 @media(max-width :768px) {
